@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "fuck you forsaken",
+  "version": "1.0",
+  "description": "closes forsaken if you click onto the damn game",
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://www.roblox.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
